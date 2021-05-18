@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Google-Font;
+  src: url("/src/LESS/Fonts/google-font-4.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+label {
+  color: white;
+  font-size: 18px;
+  font-family: Google-Font;
+  letter-spacing: 1px;
+}
+input {
+  float: right;
+  border-radius: 2px;
+  border: none;
+  height: 25px;
+  width: 50%;
+}
+.form-control {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.App {
+  background-color: #2aa5d4;
+  width: 50%;
+  margin: auto;
+  border-bottom: 20px solid #2aa5d4;
+  border-radius: 10px;
+}
+.Title {
+  font-family: Google-Font;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.Task-Container {
+  width: 50%;
+}
+.Task.Reminder {
+  background-color: #054d6f;
+  border: 5px solid #054d6f;
+  border-top: none;
+  color: white;
+}
+.Task {
+  margin: auto;
+  width: 50%;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid white;
+  border-top: none;
+  color: #054d6f;
+}
+.Task .Task-Info {
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+.Task #Task-Title,
+.Task #Task-Time {
+  margin-bottom: 0px;
+  word-break: break-word;
+  margin-top: 10px;
+  font-family: Google-Font;
+  padding-top: 3px;
+}
+.saveButton {
+  font-family: Google-Font;
+  color: white;
+  background-color: #054d6f;
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 40px;
+  font-weight: bold;
+}
+.CloseIcon {
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: red;
+}
+#No_Task_Text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 75px;
+  font-family: Google-Font;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+#checkbox {
+  float: none;
+  height: 15px;
+  width: 36%;
+}
+::placeholder {
+  font-size: 18 px;
+  color: #aaaaaa;
+  font-family: "Google-Font";
+  padding-left: 5px;
+}
