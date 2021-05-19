@@ -24,29 +24,31 @@ label {
   letter-spacing: 1px;
 }
 input {
-  float: right;
-  border-radius: 2px;
+  border-radius: 5px;
   border: none;
-  height: 25px;
-  width: 50%;
+  height: 35px;
+  width: 100%;
+  margin-top: 5px;
 }
 .form-control {
-  width: 50%;
+  width: 75%;
   margin: auto;
   margin-bottom: 30px;
 }
 .App {
-  background-color: #2aa5d4;
-  width: 50%;
+  background-color: #55ebee;
+  width: 350px;
   margin: auto;
-  border-bottom: 20px solid #2aa5d4;
-  border-radius: 10px;
+  border-radius: 8px;
+  background: linear-gradient(#55ebee, #00bee9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: 25px solid #00bee9;
 }
 .Title {
   font-family: Google-Font;
   margin-top: 20px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  font-size: 34px;
   letter-spacing: 2px;
   word-spacing: 2px;
 }
@@ -54,20 +56,20 @@ input {
   width: 50%;
 }
 .Task.Reminder {
-  background-color: #054d6f;
-  border: 5px solid #054d6f;
+  background-color: #0096b8;
+  border: 5px solid #0096b8;
   border-top: none;
   color: white;
 }
 .Task {
   margin: auto;
-  width: 50%;
-  margin-top: 50px;
+  width: 75%;
+  margin-top: 25px;
   background-color: white;
   border-radius: 10px;
   border: 5px solid white;
   border-top: none;
-  color: #054d6f;
+  color: #0096b8;
 }
 .Task .Task-Info {
   margin-left: 5px;
@@ -80,36 +82,42 @@ input {
   margin-top: 10px;
   font-family: Google-Font;
   padding-top: 3px;
+  font-size: 16px;
 }
 .saveButton {
   font-family: Google-Font;
   color: white;
-  background-color: #054d6f;
+  background-color: #0096b8;
   font-size: 18px;
   letter-spacing: 1px;
   height: 40px;
-  font-weight: bold;
+}
+.saveButton:hover {
+  background: #00728b;
 }
 .CloseIcon {
   float: right;
   margin-top: 5px;
-  margin-right: 5px;
   color: red;
 }
 #No_Task_Text {
   text-align: center;
   width: 50%;
   margin: auto;
-  margin-top: 75px;
+  margin-top: 50px;
+  padding-bottom: 30px;
   font-family: Google-Font;
   font-size: 18px;
   font-weight: bold;
   color: white;
+  letter-spacing: 1px;
 }
 #checkbox {
   float: none;
   height: 15px;
-  width: 36%;
+  width: 10%;
+  float: right;
+  margin-right: -2px;
 }
 ::placeholder {
   font-size: 18 px;

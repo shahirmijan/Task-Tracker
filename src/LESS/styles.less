@@ -1,5 +1,5 @@
-@primary-colour: #2aa5d4;
-@secondary-colour: #054d6f;
+@primary-colour: #55ebee;
+@secondary-colour: #0096b8;
 @half-value: 50%;
 
 @font-face {
@@ -36,32 +36,34 @@ label {
 }
 
 input {
-  float: right;
-  border-radius: 2px;
+  border-radius: 5px;
   border: none;
-  height: 25px;
-  width: @half-value;
+  height: 35px;
+  width: 100%;
+  margin-top: 5px;
 }
 
 .form-control {
-  width: @half-value;
+  width: 75%;
   margin: auto;
   margin-bottom: 30px;
 }
 
 .App {
   background-color: @primary-colour;
-  width: @half-value;
+  width: 350px;
   margin: auto;
-  border-bottom: 20px solid @primary-colour;
-  border-radius: 10px;
+  border-radius: 8px;
+  background: linear-gradient(#55ebee, #00bee9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: 25px solid #00bee9;
 }
 
 .Title {
   font-family: Google-Font;
   margin-top: 20px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  font-size: 34px;
   letter-spacing: 2px;
   word-spacing: 2px;
 }
@@ -79,8 +81,8 @@ input {
 
 .Task {
   margin: auto;
-  width: @half-value;
-  margin-top: 50px;
+  width: 75%;
+  margin-top: 25px;
   background-color: white;
   border-radius: 10px;
   border: 5px solid white;
@@ -99,6 +101,7 @@ input {
     margin-top: 10px;
     font-family: Google-Font;
     padding-top: 3px;
+    font-size: 16px;
   }
 }
 
@@ -109,13 +112,15 @@ input {
   font-size: 18px;
   letter-spacing: 1px;
   height: 40px;
-  font-weight: bold;
+}
+
+.saveButton:hover {
+  background: #00728b;
 }
 
 .CloseIcon {
   float: right;
   margin-top: 5px;
-  margin-right: 5px;
   color: red;
 }
 
@@ -123,17 +128,21 @@ input {
   text-align: center;
   width: @half-value;
   margin: auto;
-  margin-top: 75px;
+  margin-top: 50px;
+  padding-bottom: 30px;
   font-family: Google-Font;
   font-size: 18px;
   font-weight: bold;
   color: white;
+  letter-spacing: 1px;
 }
 
 #checkbox {
   float: none;
   height: 15px;
-  width: 36%;
+  width: 10%;
+  float: right;
+  margin-right: -2px;
 }
 
 ::placeholder {
